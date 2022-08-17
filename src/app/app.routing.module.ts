@@ -8,7 +8,7 @@ import { ErrorComponent } from './views/error/error.component';
   imports: [
     RouterModule.forRoot([
       { path: 'login', component: LoginComponent },
-      { path: '**', component: ErrorComponent },
+      { path: '**', component: ErrorComponent},
     ]),
   ],
   exports: [RouterModule],
